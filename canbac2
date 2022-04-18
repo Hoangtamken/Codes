@@ -1,0 +1,28 @@
+# ax^2+bx+c=0
+import math
+print("Chương Trình Giải Phương Trình Bậc 2")
+a=int(input("Nhập a:"))
+b=int(input("Nhập b:"))
+c=int(input("Nhập c:"))
+if a==0:
+    if b==0 and c==0:
+        print("Phương Trình Vô Số Nghiệm")
+    elif b==0 and c!=0:
+        print("Phương Trình Vô Nghiệm")
+    else:
+        x=-b/c
+        print("x=",x)
+
+else:
+    delta = (b ** 2) - (4 * a * c)
+    if    delta<0:
+        print("Phương Trình Vô Nghiệm.")
+    elif delta==0:
+        x1 = x2 = -(b / (2 * a * c))
+        print("Phưng Trình Có 1 Nghiệm x1 = x2 = ", x1)
+    elif delta>0:
+        x1=(-b+math.sqrt(delta))/(2*a)
+        x2 = (-b - math.sqrt(delta)) / (2 * a)
+        print("Phương Trình Có 2 Nghiệm")
+        print("x1=",x1)
+        print("x2=",x2)
