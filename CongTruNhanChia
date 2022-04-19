@@ -1,0 +1,11 @@
+print("Công Thức Tính Toán")
+a=float(input("Nhập 1 số a:"))
+b=float(input("Nhập 1 số b:"))
+cong=a+b
+tru=a-b
+nhan=a*b
+chia=a/b
+print("a+b = ",cong)
+print("a-b = ",tru)
+print("a*b = ",nhan)
+print("a/b = ",chia)
