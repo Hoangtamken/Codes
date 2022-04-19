@@ -1,0 +1,7 @@
+while True:
+    n=int(input("Mời Nhập Số"))
+    print(n,"là số chẳn" if n%2==0 else "là số lẻ")
+    ans=input("Bạn có muốn tiếp tục hay không y/n")
+    if ans =="y":
+        break
+print("cảm on ban đã sử dụng phần mềm")
