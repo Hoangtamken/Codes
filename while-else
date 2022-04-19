@@ -1,0 +1,11 @@
+print("Nhập ddiemr 3 môn để tính trung bình")
+sum=count=0
+while count<3:
+    value=int(input("Nhập Điểm thứ tư 3 môn:"))
+    if value<=0 or value>10:
+        print("Bạn đã nhập sai- Vui lòng nhập lại")
+        break
+    sum = sum + value
+    count = count + 1
+else:
+    print("Điểm trung bình 3 Môn là :", sum/count)
