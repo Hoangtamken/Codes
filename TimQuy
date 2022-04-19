@@ -1,0 +1,15 @@
+print("Tìm Quý")
+month=int(input("Nhập 1 Tháng Bất Kỳ: "))
+if month<=0 and month>12:
+    print("Bạn Đã Nhập Sai Vui Lòng Nhập Lại")
+else:
+    if month in (1,2,3):
+        print("Đây Là Quý 1 - Mùa Xuân")
+    elif month in (4,5,6):
+        print("Đây Là Quý 2 - Mùa Hạ")
+    elif month in (7,8,9):
+        print("Đây Là Quý 3 - Mùa Thu")
+    elif month in (10,11,12):
+        print("Đây Là Quý 4 - Mùa Đông")
+    else:
+        print("Bạn Đã Nhập Sai Vui Lòng Nhập Lại")
