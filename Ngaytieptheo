@@ -1,0 +1,9 @@
+print("Timg Ngày Tiếp Theo")
+date=int(input("Nhập ngày: "))
+month=int(input("Nhập Tháng: "))
+year=int(input("Nhập Năm: "))
+if month>12 and date>30 and month==0 or date==0:
+    print("bạn đã nhập sai thông tin")
+else:
+    print("Hôm nay là ngày :",date,":",month,":", year)
+    print("Ngày Mai là ngày :",date +1 ,":",month,":", year)
