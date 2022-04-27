@@ -20,3 +20,4 @@ while True:
     Answer=print("Bạn Có muốn Tiếp Tục không")
     if Answer=="k":
         break
+print("cám ơn bạn đã chơi game")
