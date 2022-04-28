@@ -1,6 +1,7 @@
-def BMI(Height,Weight):
+def BMI(Height,Weight):    
     return Weight/Height**2
-def PhanLoai(bmi):
+    
+def PhanLoai(bmi):         
     if bmi<=18.5:
         return "Gầy"
     elif bmi<=24.9:
