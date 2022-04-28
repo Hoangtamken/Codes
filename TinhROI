@@ -1,0 +1,14 @@
+def ROI(DoanhThu,ChiPhi):
+    return (DoanhThu-ChiPhi)/ChiPhi
+def GoiYDauTu(roi):
+    if roi>0.75:
+        return "Nên Đàu Tư"
+    else:
+        return "Không Nên Dầu Tư"
+
+print("Đây Là Chương Trình ROI")
+DoanhThu=int(input("Nhập Doanh Thu: "))
+ChiPhi=int(input("Nhập Chi Phí : "))
+roi=ROI(DoanhThu,ChiPhi)
+print("Tỷ Lệ Roi: ",roi)
+print("==>",GoiYDauTu(roi))
