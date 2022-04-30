@@ -1,0 +1,4 @@
+n=int(input("Nhập Chiều Cao :"))
+for i in range(1,n+1):
+    # print("*"*i)
+    print(" "*(n-i) + "*"*i + "*"*(i-1)) # print đối xứng lại với i là n-i
